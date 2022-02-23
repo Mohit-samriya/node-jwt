@@ -7,7 +7,7 @@ const dotenv = require("dotenv");
 const bodyParser = require('body-parser')
 dotenv.config()
 
-mongoose.connect("mongodb+srv://User1:9Wdr8XkBAW98CJg@cluster0.aavek.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{useNewUrlParser: true})
+mongoose.connect("",{useNewUrlParser: true})
 .then(() => console.log('DB Connected'))
 
 mongoose.connection.on('error', err => {
